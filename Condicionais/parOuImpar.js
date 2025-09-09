@@ -1,0 +1,9 @@
+// Ler um valor numérico inteiro e apresentar uma mensagem informando se o valor fornecido é par ou ímpar.
+
+let numero = 1;
+
+if(numero % 2 == 0) {
+    console.log(`${numero} é par`);
+} else {
+    console.log(`${numero} é impar`);
+}
